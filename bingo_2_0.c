@@ -327,7 +327,7 @@ void update_game_status(int status,int type){
         }
         if(lose_count == 0) printf("║ %-76s ║\n", "No losses recorded yet.");
         printf("╚══════════════════════════════════════════════════════════════════════════════╝\n");
-        printf("Total Wins: %d | Total Losses: %d\n\n", win_count, lose_count);
+        printf("Total Wins: %d | Total Losses: %d | Total Matchs: %d\n\n", win_count, lose_count, win_count+lose_count);
     }
     fclose(win_fp);
     fclose(lose_fp);
