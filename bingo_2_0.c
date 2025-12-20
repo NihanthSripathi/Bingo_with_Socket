@@ -254,7 +254,7 @@ int setup_socket(int current_player){
             return 1;
         }
 
-        if(fork() == 0)execlp("ip","ip","-br","-4","addr","show","eno1",NULL);
+        if(fork() == 0)execlp("ip","ip","-br","-4","addr",NULL);
         printf("\nShare IP inet address with Player-2\nTo Start Game\n");
 
         player_2_fd = accept(player_1_fd, (struct sockaddr *)&server_address, &addrlen);
