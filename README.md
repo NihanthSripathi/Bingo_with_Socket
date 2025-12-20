@@ -27,6 +27,7 @@ Bingo 2.0 is a classic Bingo game where two players compete to mark numbers on a
 
 1. Clone or download the repository.
 2. Navigate to the project directory containing `bingo_2_0.c`.
+3. The `.gitignore` file is included to exclude compiled binaries, temporary files, and OS-specific files from version control.
 
 ## Compilation
 

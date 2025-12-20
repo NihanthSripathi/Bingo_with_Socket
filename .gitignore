@@ -1,0 +1,44 @@
+# Compiled executables
+bingo
+bingo_2_0
+
+# Object files
+*.o
+*.obj
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Build directories
+build/
+bin/
+obj/
+
+# Backup files
+*.bak
+*.backup
+
+# Core dumps
+core
+core.*
+
+# History files (if any local copies)
+*_status.bin
